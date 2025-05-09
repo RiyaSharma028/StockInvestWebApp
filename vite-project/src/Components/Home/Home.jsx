@@ -5,7 +5,7 @@ import OpenAccount from '../../OpenAccount'
 import Footer from '../../Footer'
 import Trust from './trust'
 import Pricing from './pricing'
-import Education from './education'
+import Education from './Education'
 
 function Home() {
   return (
