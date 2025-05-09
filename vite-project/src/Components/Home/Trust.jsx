@@ -1,5 +1,8 @@
 import React from 'react'
 import ecosystem from '../../../public/Media/ecosystem.png'
+// import { NavLink } from 'react-router';
+import pressLogo from '../../../public/Media/pressLogos.png'
+
 
 function Trust() {
   return (
@@ -19,8 +22,16 @@ function Trust() {
       <div className='col-6 d-flex justify-content-center' style={{marginTop : "65px"}}>
         <img src={ecosystem} alt='coin-image' style={{width : "35rem"}}/>
       </div>
+      <div className='d-flex gap-5'>
+        <a href="#" className='text-decoration-none'>Explore our products <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#" className='text-decoration-none'>Try kite demo <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+        <div className='d-flex justify-content-center '>
+          <img src={pressLogo} alt="pressLogo" style={{width:"65%" , marginTop : "65px"}} />
+        </div>
+      </div>
+     
      </div>
-    </div>
   )
 }
 
