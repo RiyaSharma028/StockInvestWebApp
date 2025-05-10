@@ -4,7 +4,7 @@ import homeHero from "../../../public/Media/homeHero.png"
 function Hero() {
   return (
     <div className="container">
-       <div className="row justify-content-center text-center">
+       <div className="row justify-content-center text-center" style={{marginTop : "200px"}}>
          <img src={homeHero} alt="Hero-Image" className='w-75 mb-5' />
          <h1>Invest in everything</h1>
          <p className='mt-3'>Online platform to invest in stocks, derivatives, mutual funds, ETFs, bonds, and more.</p>
