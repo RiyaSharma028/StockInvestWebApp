@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
@@ -6,27 +7,27 @@ function Navbar() {
   <div className="container d-flex justify-content-between align-items-center">
     
     {/* Left: Logo */}
-    <a className="navbar-brand" href="#">
+    <Link to="/"className="navbar-brand">
       <img src="/Media/logo.svg" alt="Logo" style={{ width: "200px" }} />
-    </a>
+    </Link>
 
     {/* Right: Nav Links */}
     <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
       <ul className="navbar-nav me-3">
         <li className="nav-item  me-3 fs-4">
-          <a className="nav-link" href="#">SignUp</a>
+          <Link to="/signup" className="nav-link" >SignUp</Link>
         </li>
         <li className="nav-item me-3 fs-4">
-          <a className="nav-link" href="#">About</a>
+          <Link to="/About" className="nav-link">About</Link>
         </li>
         <li className="nav-item me-3 fs-4">
-          <a className="nav-link" href="#">Products</a>
+          <Link to="/Product" className="nav-link">Products</Link>
         </li>
         <li className="nav-item me-3 fs-4">
-          <a className="nav-link" href="#">Pricing</a>
+          <Link to="/Pricing" className="nav-link">Pricing</Link>
         </li>
          <li className="nav-item me-3 fs-4">
-          <a className="nav-link" href="#">Support</a>
+          <Link to="/Support" className="nav-link">Support</Link>
         </li>
       </ul>
     </div>
