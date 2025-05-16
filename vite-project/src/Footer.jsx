@@ -11,13 +11,13 @@ function Footer() {
           <p className='fs-6'> © 2010 - 2025, Zerodha Broking Ltd. All rights reserved.</p>
         </div>
         <div className='d-flex gap-3'>
-          <i class="fa-brands fa-x-twitter"></i>
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-linkedin"></i>
-          <i class="fa-brands fa-youtube"></i>
-          <i class="fa-brands fa-whatsapp"></i>
-          <i class="fa-brands fa-telegram"></i>
+          <i className="fa-brands fa-x-twitter"></i>
+          <i className="fa-brands fa-facebook"></i>
+          <i className="fa-brands fa-instagram"></i>
+          <i className="fa-brands fa-linkedin"></i>
+          <i className="fa-brands fa-youtube"></i>
+          <i className="fa-brands fa-whatsapp"></i>
+          <i className="fa-brands fa-telegram"></i>
         </div>
       </div>
        <div className="col" style={{marginLeft:"5%"}}>
