@@ -23,8 +23,8 @@ function Trust() {
         <img src={ecosystem} alt='coin-image' style={{width : "35rem"}}/>
       </div>
       <div className='d-flex gap-5'>
-        <a href="#" className='text-decoration-none'>Explore our products <i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" className='text-decoration-none'>Try kite demo <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#" className='text-decoration-none'>Explore our products <i className="fa-solid fa-arrow-right"></i></a>
+        <a href="#" className='text-decoration-none'>Try kite demo <i className="fa-solid fa-arrow-right"></i></a>
       </div>
         <div className='d-flex justify-content-center '>
           <img src={pressLogo} alt="pressLogo" style={{width:"65%" , marginTop : "65px"}} />

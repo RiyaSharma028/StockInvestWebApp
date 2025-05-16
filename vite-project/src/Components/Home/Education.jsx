@@ -14,11 +14,11 @@ function Education() {
           Free and open market education
         </h1>
         <p className='mt-3 text-secondary lh-base'>Varsity, the largest online stock market education book in the world <br></br>covering everything from the basics to advanced trading.</p>
-        <a href="#" className='text-decoration-none'>Varsity <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#" className='text-decoration-none'>Varsity <i className="fa-solid fa-arrow-right"></i></a>
         </div>
         <div>
         <p className='mt-3 text-secondary lh-base'>TradingQ&A, the most active trading and investment community in<br></br> India for all your market related queries.</p>
-        <a href="#" className='text-decoration-none'>Varsity <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#" className='text-decoration-none'>Varsity <i className="fa-solid fa-arrow-right"></i></a>
         </div>
        </div>
       </div>
