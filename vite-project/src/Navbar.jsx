@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar() {
   return (
-   <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top py-3">
+   <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top py-2" style={{fontSize : "10px"}}>
   <div className="container d-flex justify-content-between align-items-center">
     
     {/* Left: Logo */}
