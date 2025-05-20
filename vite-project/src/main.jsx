@@ -5,8 +5,8 @@ import Navbar from "./Navbar"
 import Signup from "./Components/SignUp/Signup"
 import About from "./Components/About/AboutPage.jsx"
 import Home from "./Components/Home/Home"
-import Product from "./Components/Product/Product"
-import Pricing from "./Components/Pricing/Pricing"
+import Product from "./Components/Product/Product..jsx"
+import Pricing from "./Components/Pricing/Pricing.jsx"
 import Support from "./Components/Suppport/Support"
 import NotFound from "./NotFound";
 import Footer from "./Footer";
