@@ -1,31 +1,40 @@
-import React from 'react'
-import products from "../../../public/Media/products-kite.png"
-import appStore from "../../../public/Media/appstoreBadge.svg"
-import playstore from "../../../public/Media/googlePlayBadge.svg"
+import products from "../../../public/Media/products-kite.png";
+import appStore from "../../../public/Media/appstoreBadge.svg";
+import playstore from "../../../public/Media/googlePlayBadge.svg";
 
-function Kite() {
+export default function Kite() {
   return (
-    <div className="container" style={{marginTop : "12%"}}>
-       <div className="row align-items-center justify-content-center">
-            <div className="col-4  text-center">
-              <img src={products} alt="Products" srcset="" />
-            </div>
-             <div className='col-4'></div>
-            <div className="col-4 ">
-               <h1 className='mb-3'>Kite</h1>
-               <p className='mb-3 text-secondary fs-5' style={{lineHeight : "25px"}}>Our ultra-fast flagship trading platform with<br/> streaming market data, advanced charts, an<br/> elegant UI, and more. Enjoy the Kite <br/>experience seamlessly on your Android and iOS devices.</p>
-               <div className='d-flex gap-5 fs-5 mb-3'>
-                <a href="#">Try Demo →</a>
-                <a href="#">Learn more →</a>
-               </div>
-                <div className='d-flex gap-5 '>
-                <img src={appStore} alt="" srcset="" />
-                 <img src={playstore} alt="" srcset="" />
-               </div>
-            </div>
-       </div>
+    <div className="container" style={{ marginTop: "12%" }}>
+      <div className="row align-items-center justify-content-center">
+        {/* Image Section , Right-part */}
+        <div className="col-md-5 text-center">
+          <img src={products} alt="Kite trading platform" style={{ width: "100%", height: "auto" }} />
+        </div>
+        {/* For Middle Gap */}
+        <div className="col-md-2"></div>
+        {/* Text Section */}
+        <div className="col-md-5" style={{paddingLeft: "60px"}}>
+          <h2 className="mb-3">Kite</h2>
+          <p className="mb-4" style={{ fontSize: "1.1rem" }}>
+            Our ultra-fast flagship trading platform with<br/> streaming market data, advanced charts, an<br/>
+            elegant UI, and more. Enjoy the Kite<br/> experience seamlessly on your Android and<br/> iOS devices.
+          </p>
+          <div className="d-flex gap-4 mb-4">
+            <a href="#" className="text-decoration-none">Try Demo →</a>
+            <a href="#" className="text-decoration-none">Learn more →</a>
+          </div>
+          {/* App Store Buttons */}
+          <div className="d-flex gap-3">
+            <img src={appStore} alt="Download on App Store" style={{ height: "40px" }} />
+  <img
+    src={playstore}
+    alt="Get it on Google Play"
+    style={{ height: "40px", border: "2px solid red" }}
+  />
+          </div>
+        </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Kite
