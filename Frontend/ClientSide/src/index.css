@@ -1,0 +1,12 @@
+a{
+   text-decoration: none;
+   color: #6c757d;
+}
+
+.partner-logo {
+  max-width: 150px;
+  height: auto;
+  margin: 10px;
+  object-fit: contain;
+}
+
