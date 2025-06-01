@@ -1,8 +1,11 @@
 import React from 'react'
+import Createticket from './Createticket'
 
 function Support() {
   return (
-    <div>Support</div>
+    <div style={{ marginTop: "100px" }}>
+      <Createticket></Createticket>
+    </div>
   )
 }
 
