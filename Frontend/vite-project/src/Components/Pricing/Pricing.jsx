@@ -7,8 +7,8 @@ function Pricing() {
   return (
     <div>
       <Hero></Hero>
-      <OpenAccount></OpenAccount>
       <Brokerage></Brokerage>
+      <OpenAccount></OpenAccount>
     </div>
   )
 }
