@@ -2,9 +2,9 @@ import React from 'react';
 
 function Createticket() {
     return (
-   <div className="container my-5" style={{ maxWidth: "1100px" }}>
+   <div className="container my-5 " style={{ maxWidth: "1100px" }}>
   <div className="row mb-4 justify-content-between">
-    <h3 className='text-muted mb-5'>To create a ticket, select a relevant topic</h3>
+    <h3 className='text-muted mb-5 mt-5'>To create a ticket, select a relevant topic</h3>
 
     <div className="col-md-3 mt-3">
       <h6 className='text-muted fs-5'><i class="fa-solid fa-plus me-2"></i>Account Opening</h6>

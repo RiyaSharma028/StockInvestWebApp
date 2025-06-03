@@ -1,9 +1,11 @@
 import React from 'react'
+import Hero from './Hero'
 import Createticket from './Createticket'
 
 function Support() {
   return (
-    <div style={{ marginTop: "100px" }}>
+    <div >
+      <Hero></Hero>
       <Createticket></Createticket>
     </div>
   )
